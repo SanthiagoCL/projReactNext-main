@@ -7,7 +7,7 @@ export default function Home(){
   const router=useRouter();
   useEffect(
     () => {
-      const token= 'teste'; // Simulando a obtenção do token
+      const token= 'fdfggfgdfgfd'; // Simulando a obtenção do token
       if (token) 
         router.push('/default');     
       else

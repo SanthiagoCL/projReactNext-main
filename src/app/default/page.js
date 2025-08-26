@@ -1,9 +1,21 @@
 'use client'
 
+import Principal from '../components/Principal';
+import Parametro from '../components/parametro'
+import { Texto1, Texto2, Texto3 } from '../components/parametro'
+
 export default function Default() {
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-100">
-        <h1 className="text-4xl font-bold text-gray-900">Bem-vindo à Página Padrão!</h1>
+        <div>
+            <Principal />
+            <Parametro />
+            <Texto1 />
+            <Texto2 />
+            <Texto1 />
+            <Texto2 />
+            <Texto3 cor='red' tipo='bold'>
+                .... Texto texto 3 ....
+            </Texto3>
         </div>
     );
 }
