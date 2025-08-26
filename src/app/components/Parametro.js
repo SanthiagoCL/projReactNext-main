@@ -28,7 +28,7 @@ export function Texto3({ children, cor, tipo }) {
     return (
         <div>
             <h2>
-                <span style={{ color: cor, fontWeight: tipo }}>
+                <span style={{ color: cor, fontWeight: tipo,}}>
                     {children}
                 </span>
             </h2>
